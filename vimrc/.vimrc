@@ -7,6 +7,7 @@ set tabstop=5
 
 inoremap jk <ESC>
 let mapleader = ","
+vnoremap . :norm.<CR>
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
